@@ -1,0 +1,59 @@
+
+ body {
+    background-image: url("../Images/grey-cloth-bg.jpg");
+    background-color: #cccccc;
+} 
+/* body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(224, 211, 199, 0.548);
+} */
+
+/* img {
+    max-width: 350px;
+    max-height: 350px;
+} */
+
+
+  @media (max-width: 575.98px) { 
+    h1 {
+        text-align: center;
+    }
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .small-br-margin-2 {
+
+            margin-right: 3%;
+            margin-left: 3%;
+          
+          
+      }
+
+   }
+
+.off-white-background {
+    background-color: #f7f7f7;
+}
+
+
+footer {
+    /* height: 30px; */
+    background-color: #f7f7f7;
+    border-top: 2px solid black;
+    text-align: center;
+    
+}
+footer ul {
+    list-style: ;
+}
+.github-icon {
+    width: 20px;
+    height: auto;
+}

@@ -1,12 +1,16 @@
+html{
+    height: 100%;
+}
 
- body {
+body {
     background-image: url("../Images/grey-cloth-bg.jpg");
     background-color: #cccccc;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 } 
-a {
-
+header a {
     font-size: 1.3rem;
-    
 }
 .navbar-brand {
     font-size: 1.3rem;
@@ -28,10 +32,10 @@ a {
 
             margin-right: 3%;
             margin-left: 3%;
-          
-          
       }
-
+      .center-sm {
+        margin-left: 25%;
+    }
    }
 
 .off-white-background {
@@ -40,16 +44,21 @@ a {
 
 
 footer {
-    /* height: 30px; */
     background-color: #f7f7f7;
     border-top: 2px solid rgb(88, 85, 85);
-    text-align: center;
-    
 }
-footer ul {
-    list-style: ;
+
+.footer-btm {
+
+    margin-top: auto;
 }
-.github-icon {
-    width: 20px;
-    height: auto;
+
+footer ul li a {
+    color: rgb(88, 85, 85);
+    font-weight: 500;
+}
+.footer-icon {
+    font-size: 32px;
+    color: rgb(88, 85, 85);
+    /* text-align: center; */
 }

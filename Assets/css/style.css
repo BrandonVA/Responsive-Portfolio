@@ -27,6 +27,10 @@ header a {
 .active {
     font-size: 1.4rem;
 }
+.profile-img {
+    width: 250px;
+    height: auto;
+}
 
 .btn-color {
     background-color: #4aaaa5;
@@ -34,9 +38,7 @@ header a {
 }
 
   @media (max-width: 575.98px) { 
-    h1 {
-       /* text-align: center; */
-    }
+ 
     .center-img {
         display: block;
         margin-left: auto;

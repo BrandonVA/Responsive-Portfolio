@@ -45,8 +45,6 @@ header  a {
 
 
 
-
-
  /*                 This is the footer styles                   */
 footer {
     background-color: #666666;
@@ -66,8 +64,8 @@ footer ul li a {
 
 }
 
-/*  Media query to help the style look better on small devices       */
 
+/*  Media query to help the style look better on small devices       */
 @media (max-width: 575.98px) { 
  
     .center-img {

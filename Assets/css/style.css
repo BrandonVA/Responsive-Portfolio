@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-image: url("../Images/grey-cloth-bg.jpg");
+    background-image: url("../Images/linen-texture.jpg");
     background-color: #cccccc;
     min-height: 100%;
     display: flex;
@@ -11,17 +11,31 @@ body {
 } 
 header a {
     font-size: 1.3rem;
+    color:  #4aaaa5;
+    background-color: #f8f9fa;
 }
-.navbar-brand {
-    font-size: 1.3rem;
+
+.text-color {
+    color:  #4aaaa5;
+}
+#name-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color:  #4aaaa5;
+    color: #f8f9fa;
 }
 .active {
     font-size: 1.4rem;
 }
 
+.btn-color {
+    background-color: #4aaaa5;
+    color: #f8f9fa;
+}
+
   @media (max-width: 575.98px) { 
     h1 {
-        text-align: center;
+       /* text-align: center; */
     }
     .center-img {
         display: block;
@@ -39,13 +53,13 @@ header a {
    }
 
 .off-white-background {
-    background-color: #f7f7f7;
+    background-color: #f8f9fa;
 }
 
 
 footer {
-    background-color: #f7f7f7;
-    border-top: 2px solid rgb(88, 85, 85);
+    background-color: #666666;
+    border-top: 4px solid  #4aaaa5;
 }
 
 .footer-btm {
@@ -54,11 +68,11 @@ footer {
 }
 
 footer ul li a {
-    color: rgb(88, 85, 85);
+    color: #4aaaa5;
     font-weight: 500;
 }
 .footer-icon {
     font-size: 32px;
-    color: rgb(88, 85, 85);
+    color:  #4aaaa5;
     /* text-align: center; */
 }

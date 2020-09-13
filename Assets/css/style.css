@@ -1,7 +1,6 @@
 html{
     height: 100%;
 }
-
 body {
     background-image: url("../Images/linen-texture.jpg");
     background-color: #cccccc;
@@ -9,15 +8,13 @@ body {
     display: flex;
     flex-direction: column;
 } 
-header a {
+
+
+ /*            Styles for the header and navbar            */
+header  a {
     font-size: 1.3rem;
-    color:  #4aaaa5;
-    background-color: #f8f9fa;
 }
 
-.text-color {
-    color:  #4aaaa5;
-}
 #name-text {
     font-size: 1.5rem;
     font-weight: bold;
@@ -25,50 +22,40 @@ header a {
     color: #f8f9fa;
 }
 .active {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+}
+
+
+
+/*            General Styles in the main container            */
+.off-white-background {
+    background-color: #f8f9fa;
 }
 .profile-img {
     width: 250px;
     height: auto;
 }
-
+.text-color {
+    color:  #4aaaa5;
+}
 .btn-color {
     background-color: #4aaaa5;
     color: #f8f9fa;
 }
 
-  @media (max-width: 575.98px) { 
- 
-    .center-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .small-br-margin-2 {
-
-            margin-right: 3%;
-            margin-left: 3%;
-      }
-      .center-sm {
-        margin-left: 25%;
-    }
-   }
-
-.off-white-background {
-    background-color: #f8f9fa;
-}
 
 
+
+
+ /*                 This is the footer styles                   */
 footer {
     background-color: #666666;
     border-top: 4px solid  #4aaaa5;
 }
-
 .footer-btm {
 
     margin-top: auto;
 }
-
 footer ul li a {
     color: #4aaaa5;
     font-weight: 500;
@@ -76,5 +63,23 @@ footer ul li a {
 .footer-icon {
     font-size: 32px;
     color:  #4aaaa5;
-    /* text-align: center; */
+
 }
+
+/*  Media query to help the style look better on small devices       */
+
+@media (max-width: 575.98px) { 
+ 
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .small-br-margin-2 {
+            margin-right: 3%;
+            margin-left: 3%;
+      }
+      .center-sm {
+        margin-left: 25%;
+    }
+   }

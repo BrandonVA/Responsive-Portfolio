@@ -10,7 +10,7 @@
 
 ---
 
-![Project Image](./Assets/Images/project-image.png)
+<img src="./Assets/Images/project-image.png" width="600"  />
 
 > Project Image.
 

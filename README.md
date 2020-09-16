@@ -1,6 +1,5 @@
 # Week 2 Homework | Responsive-Portfolio
 
-
 ### Table of Contents
 
 - [Description](#Description)
@@ -8,12 +7,15 @@
 - [Contribute](#Contribute)
 - [License & copyright](#License)
 
----
+# Project Image
 
 <img src="./Assets/Images/project-image.png" width="600"  />
 
-> Project Image.
+> Screen shot of the homepage.
 
+Here is a link to the [Live Site](https://brandonva.github.io/Responsive-Portfolio/) 
+
+Here is a link to the [Project Page](https://github.com/BrandonVA/Responsive-Portfolio)
 
 
 
